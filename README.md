@@ -2,6 +2,7 @@
 
 ## Content
 - [clean shell](#clean-shell)
+- [ls for big folders](#ls-for-big-folders)
 - [install deb files](#install-deb-files-from-shell)
 - [ssh tunnel](#ssh-tunnel)
 - [setup bashrc](#setup-bashrc)
@@ -11,6 +12,12 @@
 ### clean shell
 ```
 ctrl + L
+```
+
+### ls for big folders
+```
+# ls without order, first 10 elements
+ls -U | head -10
 ```
 
 ### install deb files from shell
