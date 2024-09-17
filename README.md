@@ -6,6 +6,7 @@
 - [install deb files](#install-deb-files-from-shell)
 - [ssh tunnel](#ssh-tunnel)
 - [setup bashrc](#setup-bashrc)
+- [space checks](#space-checks)
 
 ## Commands
 
@@ -31,6 +32,19 @@ sudo dpkg -i nomefile.deb
 # from your local machine but you can access it with ssh from your local machine, you can do a forward to
 # make the service on pincopallo:remoteport available at 127.0.0.1:6006 from local browser
 ssh gberardi@pincopallo -N -f -L localport:127.0.0.1:remote_port
+```
+
+### space checks
+
+check folders space
+```
+# options: -h human readable, -s no subfolders
+du -sh <folder-name>
+```
+
+check disks space
+```
+df -h
 ```
 
 ## Setup bashrc
