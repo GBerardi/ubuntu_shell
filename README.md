@@ -5,8 +5,8 @@
 - [ls for big folders](#ls-for-big-folders)
 - [install deb files](#install-deb-files-from-shell)
 - [ssh tunnel](#ssh-tunnel)
-- [setup bashrc](#setup-bashrc)
 - [space checks](#space-checks)
+- [setup bashrc](#setup-bashrc)
 
 ## Commands
 
